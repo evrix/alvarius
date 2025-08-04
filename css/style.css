@@ -1,0 +1,260 @@
+/* appareo */
+@font-face {
+    font-family: 'Appareo';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/Appareo-Medium.woff2') format('woff2'),
+    url('../fonts/Appareo-Medium.woff') format('woff'),
+
+}
+
+body {
+    font-family: 'Appareo';
+    background-color: floralwhite;
+    font-size: 1.2em;
+    padding: 0 2.4em;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    color: darkslategrey;
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 320%;
+    margin: .8em .8em .4em .8em;
+    letter-spacing: .02em;
+}
+
+h3 {
+    margin: 4.8em 7.2em 4.8em 7.2em;
+    padding: 1.2em;
+    box-shadow: 12px 8px 6px 4px lightgrey;
+}
+
+p {
+    text-align: justify;
+    text-justify: auto;
+    text-indent: 1em;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+
+header {
+    margin: 1.6em 0 4.8em 0;
+    padding: 1em;
+    box-shadow: 12px 8px 6px 4px lightgrey;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > .logo > a  > h1 {
+/*     margin: 0 8em 0 6em; */
+}
+
+
+header > .logo  > img {
+    margin: 0 4em 0 4em;
+}
+
+.home {
+    display: flex;
+}
+
+.home p, blockquote {
+    margin: 0 2em 0 2em;
+    padding: 0 1em 0 1em;
+}
+
+.home p {
+    color: grey;
+    font-size: 84%;
+    text-align: left;
+}
+
+.home blockquote {
+    text-align: justify;
+    text-justify: auto;
+    text-indent: 1em;
+    font-size: 116%;
+}
+
+.home img {
+    width: 24%;
+    height: 24%;
+}
+
+/* MAIN CONTENT */
+main {
+    width: 100%;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.notizie {
+    width:72em;
+    margin:0 auto;
+}
+.notizie ol {
+    column-width: 24em;
+    column-gap: 2em;
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+    margin: 0;
+    margin-left: 1em;
+    padding: 0;
+    counter-reset: li-counter;
+}
+.notizie ol li {
+    position: relative;
+    margin-bottom: 1.5em;
+    margin-left: 1.8em;
+    padding: 0.5em;
+    padding-left: 2.4em;
+    break-inside: avoid;
+    text-align: left;
+}
+
+.notizie a {
+    text-decoration:none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:.8em;
+}
+
+.notizie li:hover {
+    box-shadow:inset -8em 0 #008C45;
+    -webkit-transition: box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 0.5s;
+}
+
+.notizie ol li:before {
+    position: absolute;
+    top: -0.3em;
+    left: -0.5em;
+    width: 1.8em;
+    height: 1.2em;
+    margin-left: -0.9em;
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    color: #F4F5F0;
+    background-color: #008C45;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    z-index: 99;
+    overflow: hidden;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+/* FOOTER */
+footer {
+    margin: 4em 0 1em 0;
+    padding: 1.2em;
+    background-image: linear-gradient(to right, rgba(120,120,120,0) 72%, rgba(120,120,120,1));
+}
+
+footer > article > h5, p > iframe {
+    margin: 3.2em .8em 1.6em .8em;
+}
+
+footer section {
+  display: flex;
+}
+
+footer article {
+    margin: 0 2.4em 0 1.6em;
+}
+
+footer > p {
+    text-align: right;
+}
+
+
+/*NEW SITE POPUP */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup:target {
+    display: flex;
+}
+
+.popup-button {
+    margin: 24px 0 0 0;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.popup-text {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff; text-decoration: none;
+    border-radius: 3px;
+}
+
+/* js@github test */
+/*
+html, body, main {
+        height: 100%;
+}
+
+body {
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+iframe {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}*/
