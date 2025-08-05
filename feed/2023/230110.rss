@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <title>brevi dal mondo…</title>
+  <link>http://alvarius.mypressonline.com</link>
+  <description>il notiziario di Bufo Alvarius</description>
+  <atom:link href="http://alvarius.mypressonline.com/feed/feed.rss" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Mon, 08 Jan 2024 17:10:45 +0100</lastBuildDate>
+  <language>it-IT</language>
+
+
+<item>
+<title>Bolsonaro supporters storm three branches of power in Brazil (VIDEOS)</title>
+<link>https://www.rt.com/news/569572-bolsonaro-supporters-swarm-brazilian-congress/</link>
+<description>http://alvarius.mypressonline.com/230109.090123.html</description>
+<guid>https://www.rt.com/news/569572-bolsonaro-supporters-swarm-brazilian-congress/</guid>
+</item>
+
+<item>
+<title>Brasilia governor suspended in aftermath of capital riot</title>
+<link>https://www.rt.com/news/569582-brazil-governor-ibaneis-riots/</link>
+<description>http://alvarius.mypressonline.com/230109.090123.html</description>
+<guid>https://www.rt.com/news/569582-brazil-governor-ibaneis-riots/</guid>
+</item>
+
+<item>
+<title>Brasilia: replica dell’Impostura anti-Trump</title>
+<link>https://www.maurizioblondet.it/brasilia-replica-dellimpostura-anti-trump/</link>
+<description>http://alvarius.mypressonline.com/230109.090123.html</description>
+<guid>https://www.maurizioblondet.it/brasilia-replica-dellimpostura-anti-trump/</guid>
+</item>
+
+
+</channel>
+
+</rss>

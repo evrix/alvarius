@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <title>brevi dal mondo…</title>
+  <link>http://alvarius.mypressonline.com</link>
+  <description>il notiziario di Bufo Alvarius</description>
+  <atom:link href="http://alvarius.mypressonline.com/feed/feed.rss" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Mon, 08 Jan 2024 17:10:45 +0100</lastBuildDate>
+  <language>it-IT</language>
+
+
+<item>
+<title>Italy Proposes Creating Buffer Zone on Lebanon's Border With Israel</title>
+<link>https://sputnikglobe.com/20241022/italy-proposes-creating-buffer-zone-on-lebanons-border-with-israel-1120629361.html</link>
+<description>http://alvarius.mypressonline.com/241022.221024.html</description>
+<guid>https://sputnikglobe.com/20241022/italy-proposes-creating-buffer-zone-on-lebanons-border-with-israel-1120629361.html</guid>
+</item>
+
+<item>
+<title>L'attacco all'Iran e la fuga di notizie del Pentagono</title>
+<link>https://www.piccolenote.it/mondo/attacco-alliran-e-fuga-notizie-pentagono</link>
+<description>http://alvarius.mypressonline.com/241022.221024.html</description>
+<guid>https://www.piccolenote.it/mondo/attacco-alliran-e-fuga-notizie-pentagono</guid>
+</item>
+
+<item>
+<title>Greenpeace alla follia dichiara guerra ai gas intestinali</title>
+<link>https://lanuovabq.it/it/greenpeace-alla-follia-dichiara-guerra-ai-gas-intestinali</link>
+<description>http://alvarius.mypressonline.com/241022.221024.html</description>
+<guid>https://lanuovabq.it/it/greenpeace-alla-follia-dichiara-guerra-ai-gas-intestinali</guid>
+</item>
+
+<item>
+<title>Non va benissino</title>
+<link>https://www.maurizioblondet.it/non-va-benissino/</link>
+<description>http://alvarius.mypressonline.com/241022.221024.html</description>
+<guid>https://www.maurizioblondet.it/non-va-benissino/</guid>
+</item>
+
+
+</channel>
+
+</rss>
