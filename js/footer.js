@@ -48,3 +48,10 @@ function aload (page) {
           console.log('There was an error with the request')
         })
     });
+
+// apro bastabugie in una nuova finestra
+document.addEventListener("click", function (e) {
+  if (e.target.tagName == "A" && !e.target.hasAttribute("target")) {
+    e.target.setAttribute("target", "_blank");
+  }
+});

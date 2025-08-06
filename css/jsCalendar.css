@@ -399,6 +399,10 @@
 		}
 
 /* alvarius-theme theme */
+.jsCalendar.alvarius-theme table{
+	float: left;
+}
+
 .jsCalendar.alvarius-theme tbody td.jsCalendar-current {
 	background-color: #008C45;
 }
