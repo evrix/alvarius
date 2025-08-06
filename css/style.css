@@ -194,28 +194,22 @@ main > article > .feed {
 
 /* FOOTER */
 footer {
+    display: flex;
     margin: 4em 0 1em 0;
     padding: 1.2em;
-/*     background: #008C45; */
     background: linear-gradient(256deg,rgba(0, 140, 69, 1) 36%, rgba(87, 199, 133, 1) 72%, rgba(255, 255, 255, 1) 100%);
-/*     background-image: linear-gradient(to right, rgba(120,120,120,0) 72%, rgba(120,120,120,1)); */
-}
-
-footer > article > h5, p > iframe {
-    margin: 3.2em .8em 1.6em .8em;
-}
-
-footer section {
-  display: flex;
-}
-
-footer article {
     text-align: center;
-    width: 33%;
     margin: 0 2.4em 0 1.6em;
 }
 
-footer p {
-    font-size: 2.1em;
+footer > h5 {
+    float: left;
+    margin: 3.2em .8em 1.6em .8em;
+}
+
+footer > p {
+    font-size: 1.8em;
+        margin: 0 0 0 2.4em;
+
 }
 
