@@ -2,10 +2,10 @@
 
 # trepuntini …
 
-# la data delle notizie in format GGMMAA
+# la data delle notizie in format AAMMGG
 data=$1
 
-# la data delle notizie in formato AAMMGG
+# la data delle notizie in formato GGMMAA
 millennio="20"
 giorno=${data:4:2}
 mese=${data:2:2}
@@ -58,7 +58,7 @@ cp  /home/bruno/public_html/alvarius/feed/${millennio}${anno}/$data.rss  /home/b
 # put /home/bruno/public_html/alvarius/feed/feed.rss alvarius.mydiscussion.net/htdocs/feed/feed.rss
 # END
 
-git_commit_and_push.sh main "aggiunta la rassegna stampa del $data"
+git_commit_and_push.sh main "aggiunta la rassegna stampa del $giorno / $mese / $millennio$anno"
 
 # pulisco i file temporanei e le variabili
 rm /home/bruno/public_html/alvarius/bash/$data.html.tmp /home/bruno/public_html/alvarius/bash/titolo.html.tmp /home/bruno/public_html/alvarius/bash/tail.html.tmp /home/bruno/public_html/alvarius/bash/feed.rss.tmp
