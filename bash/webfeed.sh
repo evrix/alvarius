@@ -64,6 +64,6 @@ cp  /home/bruno/public_html/alvarius/feed/${millennio}${anno}/$data.rss  /home/b
 rm /home/bruno/public_html/alvarius/bash/$data.html.tmp /home/bruno/public_html/alvarius/bash/titolo.html.tmp /home/bruno/public_html/alvarius/bash/tail.html.tmp /home/bruno/public_html/alvarius/bash/feed.rss.tmp
 unset data path giorno mese anno day
 
-paplay ~bruno/Musica/system/candid.mp3
+# paplay ~bruno/Musica/system/candid.mp3
 
 exit 0
