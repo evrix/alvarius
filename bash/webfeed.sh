@@ -58,11 +58,11 @@ cp  /home/bruno/public_html/alvarius/feed/${millennio}${anno}/$data.rss  /home/b
 # put /home/bruno/public_html/alvarius/feed/feed.rss alvarius.mydiscussion.net/htdocs/feed/feed.rss
 # END
 
-git_commit_and_push.sh main "aggiunta la rassegna stampa del $giorno / $mese / $millennio$anno"
-
 # pulisco i file temporanei e le variabili
 rm /home/bruno/public_html/alvarius/bash/$data.html.tmp /home/bruno/public_html/alvarius/bash/titolo.html.tmp /home/bruno/public_html/alvarius/bash/tail.html.tmp /home/bruno/public_html/alvarius/bash/feed.rss.tmp
 unset data path giorno mese anno day
+
+git_commit_and_push.sh main "aggiunta la rassegna stampa del $giorno / $mese / $millennio$anno"
 
 paplay ~bruno/Musica/system/candid.mp3
 
