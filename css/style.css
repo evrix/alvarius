@@ -197,18 +197,41 @@ main > article > .feed {
     margin: 0 .4em 0 .4em;
     padding: 0 .2em 0 2.4em;
     text-align: left;
-    width: 64%;
+    width: 84em;
     font-size: .64em;
     float: left;
+}
+
+.bastabugie div {
+    column-width: 32em;
+    column-gap: 2em;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.bastabugie div h2 {
+    margin: 0;
+    padding: 0 0 1em 0;
+}
+
+.bastabugie div:first-child {
+    font-size: 1.28em;
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.bastabugie div:first-child h2 {
+    margin: 0;
+    padding: 0;
 }
 
 /* FOOTER */
 footer {
     display: flex;
-    margin: 2rem 2.4em 0 1.6em;
+    margin: 4rem 2.4em 0 1.6em;
     padding: 1.2em;
     background: linear-gradient(256deg,rgba(0, 140, 69, 1) 36%, rgba(87, 199, 133, 1) 72%, rgba(255, 255, 255, 1) 100%);
-    text-align: center;
+    align-items: center;
 }
 
 footer > h5 {
@@ -217,7 +240,11 @@ footer > h5 {
 }
 
 footer > p {
-    font-size: 1.8em;
+    font-size: 1.2em;
     margin: 0 0 0 2.4em;
 }
 
+footer img {
+    width: 2em;
+    height: auto;
+}

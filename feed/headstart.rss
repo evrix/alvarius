@@ -1,7 +1,8 @@
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>brevi dal mondo…</title>
-  <link>https://alvarius.mydiscussion.net/</link>
+  <link>https://evrix.github.io/alvarius/</link>
+  <atom:link href="https://evrix.github.io/alvarius/feed/feed.rss" rel="self" type="application/rss+xml" />
   <description>il notiziario di Bufo Alvarius</description>
   <language>it-IT</language>
   <pubDate>prima pubblicazione del 5 ottobre 2022</pubDate>
