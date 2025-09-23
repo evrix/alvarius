@@ -1,13 +1,3 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-
-<channel>
-  <title>brevi dal mondo…</title>
-  <link>https://evrix.github.io/alvarius/</link>
-  <atom:link href="https://evrix.github.io/alvarius/feed/feed.rss" rel="self" type="application/rss+xml" />
-  <description>il notiziario di Bufo Alvarius</description>
-  <language>it-IT</language>
-
-
 <item>
 <title>Russian Scientists Unveil Method to Protect Youth From Hybrid Warfare</title>
 <link>https://sputnikglobe.com/20250923/russian-scientists-unveil-method-to-protect-youth-from-hybrid-warfare-1122839325.html</link>
@@ -211,7 +201,3 @@
 <guid>https://www.maurizioblondet.it/papa-leone-il-talmudico/</guid>
 </item>
 
-
-</channel>
-
-</rss>
