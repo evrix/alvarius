@@ -34,14 +34,14 @@ h1 {
     letter-spacing: .02em;
 }
 
-h2 {
-    background-color:    chartreuse; 
-}
-
 h3 {
     margin: 4.8em 7.2em 4.8em 7.2em;
     padding: 1.2em;
     box-shadow: 12px 8px 6px 4px lightgrey;
+}
+
+h4 {
+    background-color: chartreuse; 
 }
 
 p {
