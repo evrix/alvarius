@@ -34,6 +34,10 @@ h1 {
     letter-spacing: .02em;
 }
 
+h2 {
+    background-color:    chartreuse; 
+}
+
 h3 {
     margin: 4.8em 7.2em 4.8em 7.2em;
     padding: 1.2em;
